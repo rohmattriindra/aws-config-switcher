@@ -11,7 +11,7 @@ A simple Go tool to switch between different AWS configurations stored in separa
 ## Installation
 
 1. Clone or download the repository.
-2. Navigate to the `golang/aws-config-switcher` directory.
+2. Navigate to the `aws-config-switcher` directory.
 3. Run `go mod tidy` to install dependencies.
 4. Build the binary: `go build -o aws-config-switcher aws-config-switcher.go`
 
@@ -31,10 +31,10 @@ A simple Go tool to switch between different AWS configurations stored in separa
    ├── personal-profile-admin/
    │   ├── config
    │   └── credentials
-   ├── company-staging/
+   ├── work-profile-ro/
    │   ├── config
    │   └── credentials
-   └── company-prod/
+   └── work-profile-admin/
        ├── config
        └── credentials
    ```
